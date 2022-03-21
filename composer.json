@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Covid_Statistics_Bot\\App\\": "app/",
+            "Covid_Statistics_Bot\\App\\CustomCommands\\": "app/CustomCommands/"
+        }
+
+    },
+    "config": { "platform-check": false },
+    "require": {
+		"monolog/monolog": "^2.3",
+        "irazasyed/telegram-bot-sdk": "2.0",
+        "fabpot/goutte": "^4.0",
+        "masterminds/html5": "^2.7"
+    }
+}
